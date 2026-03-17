@@ -1,0 +1,256 @@
+•	Where will you use it? (Details)
+
+Python -> easy to learn
+-> syntax is easy
+-> interepeter 
+-> comparsion with other prog langaus java, c, C++ then python
+
+use cases:
+1) Automation using selium
+2) Web scraping using Scrapper
+3) WEbsite building -> flask and django
+4) API's - FAST API
+5) ML, DL and data science -> numpy, pandas, matplotlib and scikit learn and pytorch
+
+
+cannot used:
+1) Mobile Appl bjilding in lighter weight
+2) Frontend applications is not possible using python
+3) Python cannot be used in Realtime for OLTP banking applications
+
+
+interpreter vs compiler
+
+Complier -> Converting executable Code to machine level language
+
+- as part compliation we can identify errors
+
+Eg: java or c or C++
+- 
+
+interpreter -> no conversion to machine level code
+rather it will directly starts executing line by line in Machine
+
+- incase if we get any error directly during runtime we will face it
+
+
+
+eg: python, R, Perl
+
+
+installation:
+
+
+
+/
+print statement:
+covered
+/
+
+Basic Datatypes in Python:
+
+1) Numeric Types:
+
+a) int
+integer, store only integer values
+eg x=10
+
+b) float
+Decimal numbers
+eg y =10.2
+
+c) complex
+Complex numbers in algebra
+z=2+3j
+
+2) Sequence Types:
+
+a) List
+ - ordered, mutable
+ lst = [1,2,3]
+ 
+b) tuple
+ - ordered, immutable
+ tup = (1,2,3)
+ 
+c) range
+- sequence of numbers
+range(5) -> 0,1,2,3,4
+
+3) Text Type
+
+a) String
+- collection of caharacters
+
+str1 = "Bangalore"
+
+4) Set Types:
+
+a) Set
+Unordered, unique elements
+
+S={1,2,3,4,5}
+print(s)
+
+b) Frozen Set
+Immutable Set
+
+fs = feronzenset([1,2,3,4])
+
+
+5)Mapping Type
+
+a) Dictonary
+- key and value pairs
+
+dict1 = {"id":1, "name":"ajay"}
+
+6) Boolean Type
+a) Bool
+- True/False
+
+7) Binary Types
+a) bytes
+
+-immutable byte seqeunce 
+
+a_v = b"hello"
+
+b) bytearray
+
+- mutable byte sequence
+
+a_v = bytearray([1,2,3])
+
+c) memoryview
+
+- memomry view of bytes
+
+a_v = memoryview(b"hello")
+
+8) None Type
+
+a) None
+
+-Represnt sabsence of value
+
+x=None
+
+
+
+
+/
+
+Variable Definition:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
