@@ -1,0 +1,140 @@
+String:
+string is a collection of chars, in python we use string with  '' or ""
+string support indexing
+-ve indexing supported
+slicing is supported
+immutable (once defined cannot be updated)
+it is iterable
+strings can be concatenated by "+"
+String can be repeated by "*"
+methods:
+upper, lower, capitailize, replace, strip, lstrip, rstrip, startswith, endswith, index, split, join, isdigit, istitle, isupper, islower
+
+
+Integer:
+Int is a whole number
+No slicing
+No indexing
+immutable
+not itterable
+holds good for arithmetic operations
+
+Float:
+Float is decimal point number
+No slicing
+No indexing
+immutable
+not itterable
+holds good for arithmetic operations
+
+Boolean:
+2 types of values 
+True
+False
+
+if we consider as False => 0,0.0,"",{},set(),[],None
+if we consider as True => non Zero object
+
+No slicing
+No indexing
+immutable
+not itterable
+
+List:
+eg: data=[10,20,30] or l =[]
+list is callection of 0 or more objects
+list is ordered
+list can store any kind of datatype
+list support indexing (+ve and -ve)
+list allows duplicate
+every object in list should be seperated with commaevery object is consdided as one index in list
+We can use + and * operators in the list
+Methods:
+append, insert, remove, pop, extend, copy, clear, index, count
+
+
+Tuple:
+eg: t = (10,20,30) or t=()
+tuple is callection of 0 or more objects
+tuple is ordered
+tuple allows duplication
+tuple supports index
+tuple support slicing
+tuple supports itterable
+tuple is immutable (important point)
+tuple once defined cannot be modified
+We can use + or * operator on tuple
+
+
+
+SET:
+eg: set={} or set={10,20,30}
+set is callection of 0 or more objects
+*No order in output
+*No duplicates are allowed only unique values
+* it can store only imutable objects
+iterable
+no indexing
+no slicing
+Mutable
++ and * sign is not supported
+methods:
+union, intersection, count, add, update, remove, dsicard, copy, clean, difference, symmetric_difference, issubset
+
+Dictonary:
+eg: data = {Key:VAlue}
+data = {'RN1':'ajay','RN2':'vijay'}
+it will storevalues in form of key and value format
+even if keys are duplicated it will fetch the overriden last value from the dict
+itterable
+indexing and slicing not allowed
+instead of index we usually use keys
+mutable
+unordered type
++ and * sign is not supported
+incase if we require need to add new key can be done like this eg:
+
+data = {'RN1':'ajay','RN2':'vijay','RN1':"sham","RN3":"abcd","rn5":"cdef"}
+data['RN6']='lmnop'
+print(data)
+{'RN1': 'sham', 'RN2': 'xyz', 'RN3': 'abcd', 'rn5': 'cdef', 'RN6': 'lmnop'}
+
+
+
+
+
+
+
+Immutable => str, int, float, Bool, None, tuple
+
+Mutable => list, set, dict
+
+iterable => str, tuple, list, set, dict
+
+noniterable => int, float, bool, None
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
