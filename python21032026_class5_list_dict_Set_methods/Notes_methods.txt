@@ -1,0 +1,4 @@
+String:
+
+#upper lower, title, capitalize, swapcase, strip, lstrip, rstrip,
+#replace, count, split, startswith, endswith, join, isdigit, index, find, count
