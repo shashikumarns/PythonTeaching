@@ -1,0 +1,22 @@
+String:
+#upper lower, title, capitalize, swapcase, strip, lstrip, rstrip,
+#replace, count, split, startswith, endswith, join, isdigit, index, find, count
+
+
+List:
+# append(), insert(), remove(), copy(), clear(), pop(), extend()
+
+
+dict:
+# keys(), values(), items()
+# get() -> not presnt then we get none, setdefault() -> iunsert if not present
+# pop()
+# copy(), update(), clear()
+
+
+SET:
+# add() -> object, update() -> iterable, remove, clear, copy
+# union, intersection, issubset, difference, symmetric_difference
+
+Tuple:
+#count() , index()
