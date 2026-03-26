@@ -1,0 +1,29 @@
+# anchors
+^ -> startswith
+$ -> endswith
+| -> or
+() -> group patterns can mentionede eg: (1|2|3|a) or (aa|bb)
+\s -> space
+\d -> digit (0-9)
+[] -> any one char from the defined eg: [012345abc]
+- -> anything one char in range eg:[0-7] or [0-79] or [a-z] or [A-Z]
+
+
+
+shorcuts:
+[0-9] ==>\d => digit
+[^0-9] ==>\D => not digit
+[ \n\t] ==> \s => space/new line/tab
+[^ \n\t] ==> \S => not space/new line/tab
+[a-zA-Z0-9_] ==> \w => match any char
+[^a-zA-Z0-9_] ==> \W => don't match any char
+[^\n] ==> . => any char but no new line
+
+
+
+import re
+out = re.search(exp,inp)
+out.start()
+out.end()
+out.group()
+
