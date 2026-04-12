@@ -17,8 +17,7 @@ shorcuts:
 [ \n\t] ==> \s => space/new line/tab
 [^ \n\t] ==> \S => not space/new line/tab
 [a-zA-Z0-9_] ==> \w => match any char
-[^a-zA-Z0-9
-_ ==> \W => don't match any char
+[^a-zA-Z0-9_] ==> \W => don't match any char
 [^\n] ==> . => any char but no new line
 
 ? => {0,1} => 0 or 1 time
